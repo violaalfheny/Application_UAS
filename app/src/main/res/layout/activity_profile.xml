@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="Hello This is my profile" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:src="@drawable/viola" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:textColor="#FFFFFF"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:text="Viola Alfheny" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="09031281722064" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textSize="13dp"
+            android:textColor="#FFFFFF"
+            android:text="Tempat, tanggal lahir : Bandar Lampung, 25 September 1999" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:text="Alamat : Jl. Gunung Krakatau No.25" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:text="Institusi : Universitas Sriwijaya" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:text="Fakultas : Ilmu Komputer" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:text="Jurusan : Sistem Informasi" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:text="Nomor Telepon  : 0895411815678" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:text="Motto Hidup" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:text="Look Back.Remember.Evaluate.Be Happy" />
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DC7C98"
+            android:layout_gravity="center"
+            android:text="back" />
+    </LinearLayout>
+
+</ScrollView>
